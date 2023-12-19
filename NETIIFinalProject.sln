@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NETIIFinalProject", "NETIIFinalProject\NETIIFinalProject.csproj", "{9B19C3B3-50C2-42B5-A470-EFABFEB4922F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicLayerTests", "LogicLayerTests\LogicLayerTests.csproj", "{033946F1-11CD-4CA2-8B9C-7E6696283FEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogicLayer", "LogicLayer\LogicLayer.csproj", "{21FF309A-5909-44A1-87DF-673134F4343B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataObjects", "DataObjects\DataObjects.csproj", "{4755D8F3-EB98-4BE8-8E54-9A2CF61F3784}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "DataAccessLayer\DataAccessLayer.csproj", "{2033DE5A-7FDE-4ABA-913A-71C45A425F15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessInterfaces", "DataAccessInterfaces\DataAccessInterfaces.csproj", "{7ECE093F-F256-4050-89F5-965432EC0698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessFakes", "DataAccessFakes\DataAccessFakes.csproj", "{03C8D436-D8C0-4FD4-ACC3-BC071BE424CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B19C3B3-50C2-42B5-A470-EFABFEB4922F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B19C3B3-50C2-42B5-A470-EFABFEB4922F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B19C3B3-50C2-42B5-A470-EFABFEB4922F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B19C3B3-50C2-42B5-A470-EFABFEB4922F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{033946F1-11CD-4CA2-8B9C-7E6696283FEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033946F1-11CD-4CA2-8B9C-7E6696283FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033946F1-11CD-4CA2-8B9C-7E6696283FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033946F1-11CD-4CA2-8B9C-7E6696283FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21FF309A-5909-44A1-87DF-673134F4343B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21FF309A-5909-44A1-87DF-673134F4343B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21FF309A-5909-44A1-87DF-673134F4343B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21FF309A-5909-44A1-87DF-673134F4343B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4755D8F3-EB98-4BE8-8E54-9A2CF61F3784}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4755D8F3-EB98-4BE8-8E54-9A2CF61F3784}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4755D8F3-EB98-4BE8-8E54-9A2CF61F3784}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4755D8F3-EB98-4BE8-8E54-9A2CF61F3784}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2033DE5A-7FDE-4ABA-913A-71C45A425F15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2033DE5A-7FDE-4ABA-913A-71C45A425F15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2033DE5A-7FDE-4ABA-913A-71C45A425F15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2033DE5A-7FDE-4ABA-913A-71C45A425F15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ECE093F-F256-4050-89F5-965432EC0698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECE093F-F256-4050-89F5-965432EC0698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECE093F-F256-4050-89F5-965432EC0698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECE093F-F256-4050-89F5-965432EC0698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C8D436-D8C0-4FD4-ACC3-BC071BE424CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C8D436-D8C0-4FD4-ACC3-BC071BE424CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C8D436-D8C0-4FD4-ACC3-BC071BE424CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C8D436-D8C0-4FD4-ACC3-BC071BE424CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5772D73B-7927-4438-A13E-12D304F759E8}
+	EndGlobalSection
+EndGlobal
